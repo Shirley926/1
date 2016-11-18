@@ -1,0 +1,36 @@
+@import "../../asset/styles/styles.scss";
+div.shelter {
+  min-height: 400px;
+}
+div.fifthctn, div.shelter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  font-family: "微软雅黑", "Microsoft Yahei";
+  font-size: 50px;
+  color: $dp-color;
+  text-align: center;
+  line-height: 100px;
+}
+div.circles {
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+div.circle {
+  margin: 0 30px;
+  padding: 5px;
+  border: 2px solid $primary-color;
+  border-radius: 100%;
+  font-family: "微软雅黑", "Microsoft Yahei";
+  font-size: 20px;
+  color: $text-color;
+  text-align: center;
+}

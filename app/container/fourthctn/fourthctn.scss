@@ -1,0 +1,29 @@
+@import "../../asset/styles/styles.scss";
+div.fourthctn {
+  min-height: 100%;
+}
+div.fourthctn, div.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.paragraph {
+  width: 100%;
+  height: auto;
+  font-family: "微软雅黑", "Microsoft Yahei";
+  font-size: 20px;
+  color: $text-color;
+  padding: 5px;
+  word-wrap: break-word;
+  text-align: center;
+}
+div.picturectn {
+  width: 100%;
+  min-height: 300px;
+  padding: 0 50px;
+}
+div.picture {
+  margin: auto;
+  border-radius: 100%;
+  background-color: $lp-color;
+}

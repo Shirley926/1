@@ -1,0 +1,30 @@
+@import "../../asset/styles/styles.scss";
+div.firstctn {
+  height: 100%;
+  //min-height: 600px;
+}
+div.firstctn, div.shelter {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.title {
+  width: 100%;
+  height: 100px;
+  font-family: "微软雅黑","Microsoft Yahei";
+  font-size: 50px;
+  color: $dp-color;
+  text-align: center;
+  line-height: 100px;
+}
+div.subtitle {
+  width: 50%;
+  height: 70px;
+  position: relative;
+  left: 50%;
+  font-family: "微软雅黑","Microsoft Yahei";
+  font-size: 30px;
+  color: $dp-color;
+  line-height: 70px;
+}
